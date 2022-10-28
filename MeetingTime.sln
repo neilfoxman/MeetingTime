@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingTime", "MeetingTime\MeetingTime.csproj", "{273078A8-5CD4-436A-8ADE-0755573927A2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MeetingTimeSetup", "MeetingTimeSetup\MeetingTimeSetup.vdproj", "{64E269C4-26CE-4C0A-80F0-B1A3DD84B8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,13 @@ Global
 		{273078A8-5CD4-436A-8ADE-0755573927A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273078A8-5CD4-436A-8ADE-0755573927A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273078A8-5CD4-436A-8ADE-0755573927A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E269C4-26CE-4C0A-80F0-B1A3DD84B8F7}.Debug|Any CPU.ActiveCfg = Debug
+		{64E269C4-26CE-4C0A-80F0-B1A3DD84B8F7}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541843E6-7F88-46E7-9E4C-302D3F3263F4}
 	EndGlobalSection
 EndGlobal
